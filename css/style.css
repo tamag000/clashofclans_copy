@@ -1,0 +1,247 @@
+@charset "utf-8";
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.cm-link-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  height: 78px;
+}
+
+.supercell-logo1 {
+  width: auto;
+  height: 78px;
+  float: left;
+  margin-left: 5px;
+}
+
+.header-link {
+  float: right;
+  margin-top: 30px;
+}
+
+.twitter-icon {
+  width: auto;
+  height: 20px;
+  margin-right: 24px;
+}
+
+.facebook-icon {
+  width: auto;
+  height: 20px;
+  margin-right: 40px;
+}
+
+.life-image-wrapper {
+  width: 100%;
+  height: 800px;
+  background-image: url("../image/bg_top2_sp.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.top-logo {
+  text-align: right;
+  position: relative;
+  top: 8px;
+  right: 14px;
+}
+
+.top-wrapper {
+  width: 100%;
+  height: 600px;
+  background-image: url("../image/bg_description.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.top-wrapper h1, .top-wrapper p {
+  color: white;
+  width: 520px;
+}
+
+.top-wrapper h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.top-wrapper p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.top-text {
+  position: relative;
+  top: 130px;
+  left: 55%;
+}
+
+.btn {
+  transition: opacity 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+.download-link1 {
+  position: relative;
+  top: 160px;
+  left: 55%;
+  display: inline-block;
+}
+
+.appstore1 {
+  width: 160px;
+  height: auto;
+  margin-right: 8px;
+}
+
+.googleplay1 {
+  width: 160px;
+  height: auto;
+}
+
+.character {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.character-text {
+  position: relative;
+  top: 200px;
+  left: 10%;
+}
+
+.characters-wrapper p, .characters-wrapper h2 {
+  color: white;
+}
+
+.characters-wrapper p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.characters-wrapper h2 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.barbarian {
+  background-image: url("../image/bg_feature1.jpg");
+  background-position: top;
+}
+
+.giant {
+  background-image: url("../image/bg_feature2.jpg");
+}
+
+.archer {
+  background-image: url("../image/bg_feature3.jpg");
+}
+
+.cms-container {
+  width: 65%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.cms-container h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.cm-contents {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cm-content{
+  width: 48%;
+}
+
+.cm-image {
+  width: 100%;
+}
+
+.cm-content h4 {
+  text-align: center;
+  font-size: 14px;
+  margin: 15px 0 36px;
+}
+
+.footer-main {
+  width: 100%;
+  height: 400px;
+  background-image: url("../image/bg_footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.footer-container {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.supercell-logo2 {
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+}
+
+.download-link2 {
+  margin-top: 20px;
+}
+
+.appstore2 {
+  width: 47%;
+  height: auto;
+  margin-right: 10px;
+}
+
+.googleplay2 {
+  width: 47%;
+  height: auto;
+}
+
+.footer-contact {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+
+.footer-contact p {
+  color: #777;
+  font-size: 12px;
+  text-decoration: underline;
+  padding: 20px 0;
+}
+
+.top-text h1 {
+  text-shadow: 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.character h2 {
+  text-shadow: 0 4px rgba(0, 0, 0, 0.3);
+}
