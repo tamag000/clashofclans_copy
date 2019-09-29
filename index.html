@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>クラクラ模写</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="cm-link">
+      <a href="#cm-link-destination"><img src="image/top_btn_cm.png" alt="" class="cm-link-btn btn"></a>
+    </div>
+
+    <script type="text/javascript">
+      $(function(){
+      	$('a[href^=#]').click(function(){
+      		var speed = 1200;
+      		var href= $(this).attr("href");
+      		var target = $(href == "#" || href == "" ? 'html' : href);
+      		var position = target.offset().top;
+      		$("html, body").animate({scrollTop:position}, speed, "swing");
+      		return false;
+      	});
+      });
+    </script>
+
+    <header>
+      <div class="header-left">
+        <img src="image/header_logo.png" alt="" class="supercell-logo1">
+      </div>
+      <div class="header-link">
+        <a href="https://twitter.com/ClashofClansJP" target="_blank"><img src="image/header_twitter.png" alt="" class="twitter-icon"></a>
+        <a href="https://www.facebook.com/clashofclansjpofficial" target="_blank"><img src="image/header_facebook.png" alt="" class="facebook-icon"></a>
+      </div>
+    </header>
+    <div class="life-image-wrapper">
+      <div class="top-logo"><img src="image/top_logo.png" alt=""></div>
+    </div>
+    <div class="top-wrapper">
+      <div class="container">
+        <div class="top-text">
+          <h1>自分だけの村をつくって、<br>
+            世界中のライバルに戦いを挑め。</h1>
+          <p>世界147カ国以上で人気No.1を誇る『クラッシュ・オブ・クラン』は、<br>
+            村を発展させて世界中のプレイヤーと対戦する、本格ストラテジーゲームです。<br>
+            戦略を練り、最強の村を築きあげ、自分だけのユニット編成で<br>
+            世界中のプレイヤーに戦いを挑もう!</p>
+        </div>
+        <div class="download-link1">
+          <a href="https://apps.apple.com/jp/app/kurasshu-obu-kuranclash-clans/id529479190" target="_blank"><img src="image/btn_appstore.png" alt="" class="btn appstore1"></a>
+          <a href="https://play.google.com/store/apps/details?id=com.supercell.clashofclans&hl=ja" target="_blank"><img src="image/btn_googleplay.png" alt="" class="btn googleplay1"></a>
+        </div>
+      </div>
+    </div>
+    <div class="characters-wrapper">
+      <div class="container">
+        <div class="character barbarian">
+          <div class="character-text">
+            <p>守り抜け！</p>
+            <h2>戦略を立てて、<br>
+              誰にも負けない<br>
+              村を築こう。</h2>
+          </div>
+        </div>
+        <div class="character giant">
+          <div class="character-text">
+            <p>つくりあげろ！</p>
+            <h2>多彩なユニットで、<br>
+              最強の布陣を<br>
+              つくろう。</h2>
+          </div>
+        </div>
+        <div class="character archer">
+          <div class="character-text">
+            <p>世界と戦え！</p>
+            <h2>頂点を目指して、<br>
+              世界中の<br>
+              プレイヤーと対戦。</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cms-wrapper" id="cm-link-destination">
+      <div class="cms-container">
+        <h3>最新TVCM公開中</h3>
+        <div class="cm-contents">
+          <div class="cm-content">
+            <a href="#"><img src="image/cm1.jpg" alt="" class="cm-image"></a>
+            <h4>「東出さんとウィザード」篇</h4>
+          </div>
+          <div class="cm-content">
+            <a href="#"><img src="image/cm2.jpg" alt="" class="cm-image"></a>
+            <h4>「東出さんとアーチャー」篇</h4>
+          </div>
+          <div class="cm-content">
+            <a href="#"><img src="image/cm3.jpg" alt="" class="cm-image"></a>
+            <h4>「木村さんとバーバリアン」篇</h4>
+          </div>
+          <div class="cm-content">
+            <a href="#"><img src="image/cm4.jpg" alt="" class="cm-image"></a>
+            <h4>「木村さんとジャイアント」篇</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-main">
+        <div class="footer-container">
+          <div class="footer-logo">
+            <img src="image/footer_logo.png" alt="" class="supercell-logo2">
+          </div>
+          <div class="download-link2">
+            <a href="https://apps.apple.com/jp/app/kurasshu-obu-kuranclash-clans/id529479190" target="_blank"><img src="image/btn_appstore2.png" alt="" class="btn appstore2"></a>
+            <a href="https://play.google.com/store/apps/details?id=com.supercell.clashofclans&hl=ja" target="_blank"><img src="image/btn_googleplay2.png" alt="" class="btn googleplay2"></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <a href="#"><p>報道関係者さまからのお問い合わせはこちら</p></a>
+      </div>
+    </footer>
+  </body>
+</html>
